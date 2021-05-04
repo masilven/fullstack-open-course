@@ -1,0 +1,17 @@
+title Tehtävä 0.6
+
+selain->palvelin: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa note
+palvelin-->selain: {message: "note created"}
+
+
+note over palvelin:
+Ohjelmisto palvelimella vastaanottaa muistiinpanon ja
+tallentaa sen data.json tiedostoon.
+Ohjelma poistaa samalla vanhimman muistiinpanon.
+end note
+
+note over selain:
+Selain lisää uuden muistiinpanon arrayhin ja
+renderoi muistiinpanot uudelleen. Selain ei pyydä
+resursseja uudelleen.
+end note
